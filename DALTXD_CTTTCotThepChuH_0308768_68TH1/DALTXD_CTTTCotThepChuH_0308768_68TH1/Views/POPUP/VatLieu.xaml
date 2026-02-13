@@ -1,0 +1,41 @@
+﻿<Window x:Class="DALTXD_CTTTCotThepChuH_0308768_68TH1.Views.POPUP.VatLieu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DALTXD_CTTTCotThepChuH_0308768_68TH1.Views.POPUP"
+        mc:Ignorable="d"
+        Title="VatLieu" Height="450" Width="800">
+    <StackPanel Margin="20">
+        <GroupBox Header="Tiết diện cột thép chữ H">
+            <StackPanel Margin="10">
+
+                <Label Content="Chiều cao h (mm)"/>
+                <TextBox/>
+
+                <Label Content="Bề rộng cánh b (mm)"/>
+                <TextBox/>
+
+                <Label Content="Chiều dày bụng tw (mm)"/>
+                <TextBox/>
+
+                <Label Content="Chiều dày cánh tf (mm)"/>
+                <TextBox/>
+
+            </StackPanel>
+        </GroupBox>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,0">
+
+            <Button Content="Sao lưu"
+                    Width="120"
+                    Margin="10"/>
+
+            <Button Content="Đóng"
+                    Width="120"
+                    Margin="10"/>
+
+        </StackPanel>
+    </StackPanel>
+</Window>
