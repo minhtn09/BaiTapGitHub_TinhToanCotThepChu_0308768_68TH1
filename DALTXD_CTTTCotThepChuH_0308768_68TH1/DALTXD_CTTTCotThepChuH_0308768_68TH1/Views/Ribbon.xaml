@@ -69,6 +69,14 @@
                 </ribbon:RibbonGroup>
 
             </ribbon:RibbonTab>
+
+            <ribbon:RibbonTab Header="Trợ giúp">
+                <ribbon:RibbonGroup Header="Thông tin">
+                    <ribbon:RibbonButton Label="Hướng dẫn"/>
+                    <ribbon:RibbonButton Label="Giới thiệu"/>
+                </ribbon:RibbonGroup>
+            </ribbon:RibbonTab>
+            
         </ribbon:Ribbon>
     </Grid>
 
