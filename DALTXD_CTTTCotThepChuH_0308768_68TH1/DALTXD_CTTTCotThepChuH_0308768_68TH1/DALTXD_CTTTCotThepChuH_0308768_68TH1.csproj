@@ -58,6 +58,15 @@
     </ApplicationDefinition>
     <Compile Include="ViewModels\LoginViewModel.cs" />
     <Compile Include="ViewModels\MainViewModel.cs" />
+    <Compile Include="Views\POPUP\thongsodauvao.xaml.cs">
+      <DependentUpon>thongsodauvao.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\POPUP\thongsothietke.xaml.cs">
+      <DependentUpon>thongsothietke.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\POPUP\VatLieu.xaml.cs">
+      <DependentUpon>VatLieu.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Ribbon.xaml.cs">
       <DependentUpon>Ribbon.xaml</DependentUpon>
     </Compile>
@@ -73,6 +82,18 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\POPUP\thongsodauvao.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\POPUP\thongsothietke.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\POPUP\VatLieu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Ribbon.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -107,7 +128,6 @@
   <ItemGroup>
     <Folder Include="Models\" />
     <Folder Include="Services\" />
-    <Folder Include="Views\POPUP\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
