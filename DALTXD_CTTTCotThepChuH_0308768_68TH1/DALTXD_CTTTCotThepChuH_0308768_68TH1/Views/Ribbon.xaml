@@ -34,7 +34,21 @@
                 </ribbon:RibbonGroup>
 
             </ribbon:RibbonTab>
-            
+
+            <!-- ================= TAB 3: THIẾT KẾ ================= -->
+            <ribbon:RibbonTab Header="Thiết kế">
+
+                <ribbon:RibbonGroup Header="Tính toán">
+                    <ribbon:RibbonButton Label="Tính toán"/>
+                    <ribbon:RibbonButton Label="Xem kết quả"/>
+                </ribbon:RibbonGroup>
+
+                <ribbon:RibbonGroup Header="Báo cáo">
+                    <ribbon:RibbonButton Label="Xuất báo cáo"/>
+                </ribbon:RibbonGroup>
+
+            </ribbon:RibbonTab>
+
             
         </ribbon:Ribbon>
     </Grid>
