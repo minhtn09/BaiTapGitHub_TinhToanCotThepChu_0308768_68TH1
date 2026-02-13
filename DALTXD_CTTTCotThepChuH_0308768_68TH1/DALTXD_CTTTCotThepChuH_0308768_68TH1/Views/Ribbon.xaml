@@ -34,8 +34,6 @@
                 </ribbon:RibbonGroup>
 
             </ribbon:RibbonTab>
-
-            <!-- ================= TAB 3: THIẾT KẾ ================= -->
             <ribbon:RibbonTab Header="Thiết kế">
 
                 <ribbon:RibbonGroup Header="Tính toán">
@@ -49,7 +47,28 @@
 
             </ribbon:RibbonTab>
 
-            
+            <ribbon:RibbonTab Header="Hiển thị">
+
+                <ribbon:RibbonGroup Header="Mặt bằng">
+                    <ribbon:RibbonButton Label="Theo tầng"/>
+                </ribbon:RibbonGroup>
+
+                <ribbon:RibbonGroup Header="Mặt đứng">
+                    <ribbon:RibbonButton Label="Theo trục"/>
+                </ribbon:RibbonGroup>
+
+                <ribbon:RibbonGroup Header="Tiện ích">
+                    <ribbon:RibbonButton Label="Zoom In"/>
+                    <ribbon:RibbonButton Label="Zoom Out"/>
+                    <ribbon:RibbonButton Label="Pan"/>
+                </ribbon:RibbonGroup>
+
+                <ribbon:RibbonGroup Header="Quản lý hiển thị">
+                    <ribbon:RibbonButton Label="Label"/>
+                    <ribbon:RibbonButton Label="Section"/>
+                </ribbon:RibbonGroup>
+
+            </ribbon:RibbonTab>
         </ribbon:Ribbon>
     </Grid>
 
