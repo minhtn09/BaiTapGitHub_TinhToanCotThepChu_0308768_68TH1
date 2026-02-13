@@ -3,10 +3,66 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DALTXD_CTTTCotThepChuH_0308768_68TH1"
+        xmlns:views="clr-namespace:DALTXD_CTTTCotThepChuH_0308768_68TH1.Views"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Phần mềm thiết kế"
+        Height="750"
+        Width="1200"
+        WindowStartupLocation="CenterScreen">
+
     <Grid>
-        
+
+        <!-- Chia 2 phần: Ribbon + Nội dung -->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Ribbon -->
+            <RowDefinition Height="*"/>
+            <!-- Nội dung -->
+        </Grid.RowDefinitions>
+
+        <!-- Ribbon -->
+        <views:Ribbon Grid.Row="0"/>
+
+        <!-- Nội dung chính -->
+        <Border Grid.Row="1" Background="#F2F2F2">
+            <Grid>
+
+                <!-- Chỉ chia 2 cột -->
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="3*" />
+                    <!-- Bản vẽ lớn -->
+                    <ColumnDefinition Width="2*" />
+                    <!-- Kết quả -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Ô BẢN VẼ -->
+                <Border Grid.Column="0"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Background="White">
+
+                    <TextBlock Text="KHU VỰC BẢN VẼ"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="20"/>
+                </Border>
+
+                <!-- Ô KẾT QUẢ -->
+                <Border Grid.Column="1"
+                BorderBrush="Black"
+                BorderThickness="1"
+                Background="White">
+
+                    <TextBlock Text="KHU VỰC KẾT QUẢ"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontSize="20"/>
+                </Border>
+
+            </Grid>
+        </Border>
+
+
     </Grid>
+
 </Window>
