@@ -6,7 +6,36 @@
         xmlns:local="clr-namespace:DALTXD_CTTTCotThepChuH_0308768_68TH1.Views.POPUP"
         mc:Ignorable="d"
         Title="VatLieu" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <StackPanel Margin="20">
+        <GroupBox Header="Tiết diện cột thép chữ H">
+            <StackPanel Margin="10">
+
+                <Label Content="Chiều cao h (mm)"/>
+                <TextBox/>
+
+                <Label Content="Bề rộng cánh b (mm)"/>
+                <TextBox/>
+
+                <Label Content="Chiều dày bụng tw (mm)"/>
+                <TextBox/>
+
+                <Label Content="Chiều dày cánh tf (mm)"/>
+                <TextBox/>
+
+            </StackPanel>
+        </GroupBox>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,0">
+
+            <Button Content="Sao lưu"
+                    Width="120"
+                    Margin="10"/>
+
+            <Button Content="Đóng"
+                    Width="120"
+                    Margin="10"/>
+
+        </StackPanel>
+    </StackPanel>
 </Window>
