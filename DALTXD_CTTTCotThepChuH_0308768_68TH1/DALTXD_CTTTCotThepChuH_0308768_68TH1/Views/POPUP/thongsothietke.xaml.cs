@@ -12,11 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
+
 namespace DALTXD_CTTTCotThepChuH_0308768_68TH1.Views.POPUP
 {
-    /// <summary>
-    /// Interaction logic for thongsothietke.xaml
-    /// </summary>
     public partial class thongsothietke : Window
     {
         public thongsothietke()
