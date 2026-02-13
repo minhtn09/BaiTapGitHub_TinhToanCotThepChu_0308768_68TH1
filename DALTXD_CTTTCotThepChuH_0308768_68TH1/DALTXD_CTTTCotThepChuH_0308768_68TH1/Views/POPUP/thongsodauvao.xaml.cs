@@ -23,5 +23,6 @@ namespace DALTXD_CTTTCotThepChuH_0308768_68TH1.Views.POPUP
         {
             InitializeComponent();
         }
+
     }
 }
